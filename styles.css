@@ -1,0 +1,100 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background: url("images/Abuja-City.jpg");
+    height: 380px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    background-color: #457B9D;
+    padding: 5px 15px;
+    border-radius: 4px;
+    color: white;
+    font-size: 32px;
+}
+
+#subtitle {
+    width: 400px;
+    background: #1D3557;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    font-size: 19px;
+}
+
+#activities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F1FAEE;
+    padding: 50px 10px;
+}
+
+#activity-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.activity-card {
+    width: 200px;
+    padding: 20px;
+}
+
+#activity-cards img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#guide {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    margin: 75px auto 75px auto;
+    background: #A8DADC;
+    padding: 25px 10px 25px 10px;
+    border-radius: 10px;
+    border-bottom: 10px solid #1D3557;
+}
+
+#guide img {
+    width: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#guide-details {
+    width: 180px;
+}
+
+footer {
+    background: #F1FAEE;
+    padding: 1px 0px;
+    line-height: 1em;
+}
